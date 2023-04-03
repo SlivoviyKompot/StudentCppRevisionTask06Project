@@ -22,6 +22,5 @@
 */
 
 bool task01(int x, int y) {
-	return (((x > 0 && x < 9) && (y > 0 && y < 9))
-		&& (x % 2 == 1 && y % 2 == 1));
+	return (x > 0 && x < 9 && y > 0 && y < 9 && x % 2 == y % 2);
 }
